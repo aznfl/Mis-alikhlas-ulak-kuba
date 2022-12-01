@@ -1,0 +1,117 @@
+header > #sort {
+    padding: 20px 0px;
+}
+
+header > #list-movie {
+    margin: 30px;
+}
+
+.yellow {
+    color: #ffc107;
+}
+
+.navbar {
+    background-color: #3298DB;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+strong > span {
+    color: black;
+}
+
+.row > .col-12 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header > section:nth-child(2) {
+    padding: 30px 0px;
+}
+
+#page {
+    width: 150px;
+}
+
+/* # Breadcrumbs */
+
+.breadcrumbs {
+padding: 15px 0;
+background: #1c1001;
+min-height: 40px;
+margin-top: 0px;
+}
+.breadcrumbs h2 {
+font-size: 26px;
+font-weight: 300;
+color: #fff;
+}
+.breadcrumbs ol {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+padding: 0;
+margin: 0;
+color: #fff;
+}
+.breadcrumbs ol a {
+color: #fff;
+}
+.breadcrumbs ol li + li {
+padding-left: 10px;
+}
+.breadcrumbs ol li + li::before {
+display: inline-block;
+padding-right: 10px;
+color: #fff;
+content: "/";
+}
+@media (max-width: 991px) {
+.breadcrumbs {
+margin-top: 58px;
+}
+.breadcrumbs .d-flex {
+display: block !important;
+}
+.breadcrumbs ol {
+display: block;
+}
+.breadcrumbs ol li {
+display: inline-block;
+}
+}
+
+/* # About Us */
+
+.about-us .content h2 {
+font-weight: 700;
+font-size: 42px;
+line-height: 60px;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+.about-us .content h3 {
+font-weight: 500;
+line-height: 32px;
+font-size: 24px;
+}
+.about-us .content ul {
+list-style: none;
+padding: 0;
+}
+.about-us .content ul li {
+padding: 10px 0 0 28px;
+position: relative;
+}
+.about-us .content ul i {
+left: 0;
+top: 7px;
+position: absolute;
+font-size: 20px;
+color: #1bbd36;
+}
+.about-us .content p:last-child {
+margin-bottom: 0;
+}
